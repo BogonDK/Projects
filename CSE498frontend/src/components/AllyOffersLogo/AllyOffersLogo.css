@@ -1,0 +1,17 @@
+.whole-logo {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font: Montserrat;
+    vertical-align: text-bottom;
+}
+
+.ally-font {
+    color: #8A3575;
+    font-size: 40px;
+}
+
+.offers-font {
+    color: #5F285E;
+    font-size: 30px;
+}
