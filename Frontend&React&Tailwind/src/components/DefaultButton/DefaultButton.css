@@ -1,0 +1,21 @@
+.button {
+    width: 300px;
+    height: 55px;
+    margin-left: 16px;
+    background-color: #1C988A;
+    color: #FFFFFF;
+    font: normal normal medium 16px/25px Poppins;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.button:hover{
+    background-color: #1c988ac3;
+
+}
+
+.button-small {
+    width: auto;
+    height: auto;
+    padding: 1rem 2rem;
+}

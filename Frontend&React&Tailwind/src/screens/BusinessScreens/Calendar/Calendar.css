@@ -1,0 +1,54 @@
+.box {
+    inline-size: min-content;
+  }
+
+#edit{
+  width: 60px;
+  height: 20px;
+  margin-left: 16px;
+  background-color: #1C988A;
+  color: white;
+  font: normal normal medium 16px/25px Poppins;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#delete{
+  width: 60px;
+  height: 20px;
+  margin-left: 16px;
+  background-color: #1C988A;
+  color: white;
+  font: normal normal medium 16px/25px Poppins;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+
+.total{
+  color: #8a3575
+}
+
+
+.wrapper {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.graph{
+  background-color: #8a3575;
+}
+

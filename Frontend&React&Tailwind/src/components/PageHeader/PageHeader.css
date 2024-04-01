@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  background: #5f285e0e;
+  color: #5F285E;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.bubble-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.customer-bubble-buttons {
+  display: flex;
+  flex-direction: row;
+}

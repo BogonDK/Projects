@@ -1,0 +1,25 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  pch.cpp
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  ToneInstrument.cpp
+  WaveformWnd.cpp
+  WaveformBuffer.cpp
+  Wave.cpp
+  SynthieView.cpp
+  Synthie.cpp
+  Synthesizer.cpp
+  SineWave.cpp
+  ProgressDlg.cpp
+  Progress.cpp
+  Notes.cpp
+  Note.cpp
+  MainFrm.cpp
+  Instrument.cpp
+  AR.cpp
+  DirSoundStream.cpp
+  DirSoundSource.cpp
+  DirSound.cpp
+  AudioNode.cpp
+  Generating Code...
+AudioNode.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Synthie.vcxproj -> C:\Users\bogon\Synthie2\Synthie\Debug\Synthie.exe

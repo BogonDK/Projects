@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.button {
+  background-color: #650360;
+  color: white; 
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 12px 16px; 
+  font-size: 20px; 
+  cursor: pointer; 
+}
+
+.button:hover {
+  background-color: #650360ca;
+  color: offwhite;
+}
+
+:root {
+  --darkred: #650360;
+  --white: #fff;
+  --thumb: #edf2f4;
+}
+
+.carousel{
+  margin-top: 7vw;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.carousel-title{
+  text-align: left;
+  display: table-header-group;
+}
+
+  
+ 

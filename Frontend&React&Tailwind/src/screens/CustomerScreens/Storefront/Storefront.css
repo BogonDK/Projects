@@ -1,0 +1,169 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #F6F8FA;
+  align-items: center;
+}
+
+.store-front {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.store-front-details-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #e9eaee;
+  border-radius: 12px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.store-front-img {
+  width: 350px;
+  object-fit: contain;
+  display: block;
+  border-radius: 12px;
+  border-width: 10px;
+  border-color: white;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.store-front-name {
+  display: flex;
+  font-size: 38px;
+  font-weight: bold;
+  color: #5F285E;
+  margin-bottom: 5px;
+  align-self: flex-start;
+}
+
+.store-front-address {
+  display: flex;
+  font-size: 24px;
+  color: #5F285E;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  font-style: italic;
+}
+
+.store-front-body {
+  font-size: 24px;
+  color: #8A3575;
+  display: flex;
+  align-self: flex-start;
+}
+
+.store-front-hl {
+  width: 100%;
+  border-top: 2px solid #c3c5cb;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.store-front-cards {
+  display: flex;
+  padding: 15px 0px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin-top: 20px;
+  background: #5f285e0e;
+  border-radius: 10px;
+}
+
+.store-front-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  scroll-snap-align: start;
+  transition: all 0.2s;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.store-front-card:hover {
+    background-color:rgb(188, 185, 189);
+    color:#edf2f4
+  }
+  
+  .store-front-card .card-title {
+    font-size: 20px;
+  }
+  
+  .store-front-card .card-content {
+    margin: 20px 0;
+    max-width: 85%;
+  }
+
+  .store-front-cards::-webkit-scrollbar {
+    height: 16px;
+  }
+
+  
+  .store-front-cards::-webkit-scrollbar-thumb {
+    background: var(--darkred);
+  }
+  
+  .store-front-cards::-webkit-scrollbar-track {
+    background: var(--thumb);
+  }
+  
+
+  @media (min-width: 1000px) {
+    .store-front-card {
+      flex-basis: calc(25% - 30px);
+    }
+  
+    .store-front-card:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  .pic {
+    width: fit-content;
+    object-fit: fill;
+    display: block;
+}
+
+.store-front-save-button {
+  background-color: #8A3575;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.store-front-save-button:hover {
+  background-color: #5F285E;
+}
+
+.store-front-saved-button {
+  background-color: white;
+  color: #8A3575;
+  border-color: #8A3575;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.store-front-redeemed-button {
+  background-color: rgb(189, 189, 189);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
